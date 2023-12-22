@@ -15,7 +15,7 @@ bodyParser.json();
 app.use(express.json());
 app.use('/',managementRoutes);
 app.get("/",(req,res) =>{
-    res.send("Welcome to Assignment-155")
+    res.send("Welcome to Assignment-15 -User Management")
 })
 
 app.listen(PORT, () => {
